@@ -1,0 +1,21 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"DocBlockr",
+		"Emmet",
+		"FileDiffs",
+		"Git",
+		"GitGutter",
+		"Jinja2",
+		"JSHint",
+		"Package Control",
+		"SCSS",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Theme - Soda",
+		"Tomorrow Color Schemes",
+		"YUI Compressor"
+	]
+}

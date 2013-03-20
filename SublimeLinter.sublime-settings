@@ -1,0 +1,37 @@
+{
+    "sublimelinter": "save-only",
+    "sublimelinter_gutter_marks": true,
+    "jshint_options":
+    {
+        // To fix column positions for JSHint errors you may want to add `"indent": 1` to your
+        // **User** "jshint_options". This issue affects users with tabs for indentation.
+        // This fix was reverted due to a conflict with using the `"white": true` option.
+        // "indent": 1,
+        "evil": true,
+        "regexdash": true,
+        "browser": true,
+        "wsh": true,
+        "trailing": true,
+        "sub": true,
+        // mine: http://www.jshint.com/options/
+        "bitwise":  true,
+        "curly":    true,
+        "eqeqeq":   true,
+        "forin":    true,
+        "latedef":  true,
+        "newcap":   true,
+        "regexp":   true,
+        "undef":    true,
+        "trailing": true
+    },
+    "sublimelinter_disable": ["css"],
+    /*
+        A list of pep8 error numbers to ignore. By default "line too long" errors are ignored.
+        The list of error codes is in this file: https://github.com/jcrocholl/pep8/blob/master/pep8.py.
+        Search for "Ennn:", where nnn is a 3-digit number.
+    */
+    "pep8_ignore":
+    [
+        "E501"
+    ]
+}

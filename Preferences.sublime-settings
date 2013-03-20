@@ -1,0 +1,42 @@
+{
+    "caret_style": "wide",
+    "color_scheme": "Packages/User/Monokai Soda.tmTheme",
+    "draw_minimap_border": true,
+    "draw_white_space": "none",
+    "ensure_newline_at_eof_on_save": true,
+    "find_selected_text": true,
+    "folder_exclude_patterns":
+    [
+        ".git",
+        ".svn",
+        ".webassets-cache",
+        "gen",
+        "build"
+    ],
+    "font_face": "Consolas",
+    "font_size": 12.0,
+    "gutter": true,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "ignored_packages":
+    [
+        "Vintage",
+        "BracketHighlighter"
+    ],
+    "indent_subsequent_lines": false,
+    "margin": 0,
+    "open_files_in_new_window": false,
+    "remember_open_files": true,
+    "rulers":
+    [
+        120
+    ],
+    "scroll_past_end": true,
+    "show_full_path": true,
+    "spell_check": true,
+    "tab_size": 4,
+    "theme": "Soda Dark.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "wrap_width": 120
+}

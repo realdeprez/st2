@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+(function (ms) {
+    console.log('wait ' + ms + 'ms...');
+    ms += new Date().getTime();
+    while (new Date() < ms){}
+})(${1:500})]]></content>
+    <tabTrigger>wait</tabTrigger>
+    <scope>source.js</scope>
+    <description>jQuery</description>
+</snippet>
